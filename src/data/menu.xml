@@ -1,0 +1,283 @@
+﻿<TreeView>
+  <node text="Меню">
+    <node text="Показания системы ">
+      <node text="Положение 0.0  % ">
+        <node text="" />
+      </node>
+      <node text="Скорость 0.0  % ">
+        <node text="Скорость 0.0  % " />
+      </node>
+      <node text="Момент 0  % ">
+        <node text="Момент 0  % " />
+      </node>
+      <node text="Напряжение сети 0  В" />
+      <node text="Темпер. двиг. 0  °C" />
+    </node>
+    <node text="Дефекты">
+      <node text="D" />
+      <node text="Активные дефекты ">
+        <node text="D0" />
+        <node text="Активные дефекты 0 " />
+        <node text="Df1 Напряж.DC &lt;55%">
+          <node text="Напряжение DC 0  В" />
+          <node text="Ubus off 135  В" />
+          <node text="Гистерезис 5  В" />
+          <node text="Время выдерж.10  мс" />
+        </node>
+        <node text="Df2 Ток КЗ " />
+        <node text="Df3 Перегрев СМ">
+          <node text="Температура 0  °C" />
+          <node text="Порог вкл. 100  °C" />
+          <node text="Гистерезис 5  °C" />
+        </node>
+        <node text="Df4 Переохлажд. СМ">
+          <node text="Температура 0  °C" />
+          <node text="Порог вкл. -42  °C" />
+          <node text="Гистерезис 2  °C" />
+        </node>
+        <node text="Df5 Двиг. не подкл.">
+          <node text="Ток фазы U 0.0  А" />
+          <node text="Ток фазы V 0.0  А" />
+          <node text="Ток фазы W 0.0  А" />
+          <node text="Мин.ток 0.0  А" />
+        </node>
+        <node text="Df6 Изоляция &lt;0.5 МОм" />
+        <node text="Df7 Действ.напряж.&lt;50%">
+          <node text="Напряжение 0  В" />
+          <node text="U off &lt;50% 190  В" />
+          <node text="Время выдержки 10  мс" />
+        </node>
+        <node text="Df8 Времятоковая защ." />
+        <node text="Df9 Момент в 'Закр.'">
+          <node text="Момент огранич.5.0 кН*м " />
+          <node text="Время выдерж.3.0  сек" />
+        </node>
+        <node text="Df10 Момент в 'Откр.'">
+          <node text="Момент огранич.5.0 кН*м " />
+          <node text="Время выдерж.3.0  сек" />
+        </node>
+        <node text="Df11 Дейст.напряж.&gt;31%">
+          <node text="Напряжение  0  В" />
+          <node text="U off &gt;31% 497  В" />
+          <node text="Время выдержки 10  мс" />
+        </node>
+        <node text="Df12 Обрыв фазы двиг.">
+          <node text="Ток фазы U 0.0  А" />
+          <node text="Ток фазы V 0.0  А" />
+          <node text="Ток фазы W 0.0  А" />
+          <node text="Мин.ток 1.2  А" />
+          <node text="Время выдержки 805  мс" />
+        </node>
+        <node text="Df13 Сбой парам.польз." />
+        <node text="Df14 Перенапр. DC">
+          <node text="Напряжение DC 0  В" />
+          <node text="U off &gt;50% 806  В" />
+          <node text="Время выдерж.4  мс" />
+        </node>
+        <node text="Df15 Сбой парам.рег." />
+        <node text="Df16 Сбой положения" />
+        <node text="Df17 Разряд батареи">
+          <node text="Напряжение бат.0  В" />
+        </node>
+        <node text="Df19 Перегрев двиг.">
+          <node text="Темпер. двиг. 0  °C" />
+          <node text="Порог вкл.110  °C" />
+          <node text="Гистерезис 10  °C" />
+        </node>
+        <node text="Df20 Обрыв связи МВВ" />
+        <node text="Df21 Уход аналог.входа" />
+        <node text="Df22 Нет служ.фазы" />
+        <node text="Df23 Изоляция &lt;1 МОм" />
+        <node text="Df24 Сбой ДП">
+          <node text="Регистр ДП - 0000 " />
+        </node>
+        <node text="Df26 Разряд бат.ИМ" />
+        <node text="Df27 Перегрев МПР">
+          <node text="Температура 0  °C" />
+          <node text="Порог вкл. 100  °C" />
+          <node text="Гистерезис 5  °C" />
+        </node>
+        <node text="Df28 Переохлажд.МПР">
+          <node text="Температура 0  °C" />
+          <node text="Порог вкл. -42  °C" />
+          <node text="Гистерезис 2  °C" />
+        </node>
+        <node text="Df29 Сбой связи с МСП" />
+        <node text="Df33 Дейст.напряж.&gt;47%">
+          <node text="Напряжение 0  В" />
+          <node text="U off &gt;47% 788  В" />
+          <node text="Время выдержки 10  мс" />
+        </node>
+        <node text="Df34 Имп.напряж.&gt;31%">
+          <node text="U off &gt;31% 703  В" />
+          <node text="Время выдержки 5 *.2мс" />
+        </node>
+        <node text="Df35 Имп.напряж.&gt;47%">
+          <node text="U off &gt;47% 789  В" />
+          <node text="Время выдержки 5 *.2мс" />
+        </node>
+        <node text="Df36 Отключ.зар.реле" />
+        <node text="Df38 Длит.перенапр.">
+          <node text="Напряжение DC 0  В" />
+          <node text="Ubus +31% 702  В" />
+          <node text="Ubus +47% 788  В" />
+          <node text="Время +31% 25.0  сек" />
+          <node text="Время +47% 3.0  сек" />
+          <node text="Uвх 26% 479  В" />
+        </node>
+        <node text="Df40 Сбой зарядн.реле" />
+        <node text="Df41 Отключ.тормоза">
+          <node text="Время выкл.1.00  сек" />
+          <node text="A-порог переключения " />
+          <node text="состояния 20.0  А/с2" />
+        </node>
+        <node text="Df42 Включ.тормоза">
+          <node text="Время вкл.1.00  сек" />
+          <node text="A-порог переключения " />
+          <node text="состояния 20.0  А/с2" />
+        </node>
+        <node text="Df46 Перегрузка тока">
+          <node text="Ток стойки U 0.0  А" />
+          <node text="Ток стойкиV 0.0  А" />
+          <node text="Ток стойки W 0.0  А" />
+          <node text="Макс.ток 0.0  А" />
+        </node>
+        <node text="Df49 Превышен time-out" />
+        <node text="Df50 Критич.сниж.пит." />
+        <node text="WR01 Прев.доп.пусков" />
+        <node text="WR02 Прев.вр.раб.час" />
+        <node text="WR03 Прев пред.момент" />
+        <node text="WR04 Прев.пред.T дв." />
+        <node text="WR05 Отсутств.запросы" />
+        <node text="WR06 Тест частич.хода" />
+        <node text="WR07 Диагн.вх.Открыть" />
+        <node text="WR08 Диагн.вх.Закрыть" />
+        <node text="WR09 Диагн.вх.Стоп" />
+        <node text="WR10 Диагн.вх.Режим" />
+        <node text="WR11 Технич.обслуж." />
+        <node text="WR12 Ошибка настройки" />
+        <node text="WR18 Перегрузка двиг.">
+          <node text="Ток стойки U 0.0  А" />
+          <node text="Ток стойки V 0.0  А" />
+          <node text="Ток стойки W 0.0  А" />
+          <node text="Макс.ток 6.2  А" />
+        </node>
+        <node text="WR19 Сбой магн.поля">
+          <node text="DEC слабый магнит" />
+          <node text="INC сильный магнит" />
+        </node>
+        <node text="EV02 Безопасное сост." />
+        <node text="EV03 Сброс калибровки" />
+        <node text="EV04 Движ.ручн.дубл." />
+        <node text="EV05 Тест частич.хода" />
+        <node text="EV09 Калибр.по упорам" />
+        <node text="EV10 Част.ход пройден" />
+      </node>
+      <node text="Журнал дефектов">
+        <node text="D1 0  Дефектов  0 " />
+        <node text="Df1 Напряж.DC &lt;55% " />
+        <node text="Время 02:31:01 " />
+        <node text="Дата 16.11.12 " />
+      </node>
+      <node text="Журнал предупреждений">
+        <node text="D4 0  Предупрежд.0 " />
+        <node text="WR01 Прев.доп.пусков " />
+        <node text="Время 02:31:01 " />
+        <node text="Дата 16.11.12 " />
+      </node>
+      <node text="Журнал событий">
+        <node text="D7 0  Событий 0 " />
+        <node text="EV01 Включ.привода " />
+        <node text="Время 02:31:01 " />
+        <node text="Дата 16.11.12 " />
+      </node>
+    </node>
+    <node text="Справка">
+      <node text="Номер: 0 " />
+      <node text="Изготовлен: 1311 " />
+      <node text="Версия ПО: 0.0 " />
+      <node text="Версия ПО ДП: 0.0 " />
+      <node text="Идентиф. ДП: 0 " />
+      <node text="Версия загруз.: 0.0 " />
+      <node text="Счетчики пользователя" />
+      <node text="циклов 0 " />
+      <node text="пусков 0 " />
+      <node text="муфты  0 " />
+      <node text="защ.двиг. 0 " />
+      <node text="Время работы двиг. " />
+      <node text="0  часов" />
+      <node text="Диагностика">
+        <node text="Время моментов ">
+          <node text="Время движения" />
+          <node text="с моментом" />
+          <node text="0-9%  0.0  часов " />
+          <node text="10-19% 0.0  часов " />
+          <node text="20-29% 0.0  часов " />
+          <node text="30-39% 0.0  часов " />
+          <node text="40-49% 0.0  часов " />
+          <node text="50-59% 0.0  часов " />
+          <node text="60-69% 0.0  часов " />
+          <node text="70-79% 0.0  часов " />
+          <node text="80-89% 0.0  часов " />
+          <node text="90-100% 0.0  часов " />
+        </node>
+        <node text="Время по подзонам ">
+          <node text="Подзоны движения " />
+          <node text="0-4%  0.0  часов" />
+          <node text="5-9%  0.0  часов" />
+          <node text="10-14% 0.0  часов" />
+          <node text="15-19% 0.0  часов" />
+          <node text="20-24% 0.0  часов" />
+          <node text="25-29% 0.0  часов" />
+          <node text="30-34% 0.0  часов" />
+          <node text="35-39% 0.0  часов" />
+          <node text="40-44% 0.0  часов" />
+          <node text="45-49% 0.0  часов" />
+          <node text="50-54% 0.0  часов" />
+          <node text="55-59% 0.0  часов" />
+          <node text="60-64% 0.0  часов" />
+          <node text="65-69% 0.0  часов" />
+          <node text="70-74% 0.0  часов" />
+          <node text="75-79% 0.0  часов" />
+          <node text="80-84% 0.0  часов" />
+          <node text="85-89% 0.0  часов" />
+          <node text="90-94% 0.0  часов" />
+          <node text="95-100% 0.0  часов" />
+        </node>
+        <node text="Время темпер.двиг. ">
+          <node text="Время работы двиг." />
+          <node text="с температурой" />
+          <node text="-70--61°C 0.0  часов" />
+          <node text="-60--51°C 0.0  часов" />
+          <node text="-50--41°C 0.0  часов" />
+          <node text="-40--31°C 0.0  часов" />
+          <node text="-30--21°C 0.0  часов" />
+          <node text="-20--11°C 0.0  часов" />
+          <node text="-10--1°C 0.0  часов" />
+          <node text="0-+9°C 0.0  часов" />
+          <node text="10-+19°C 0.0  часов" />
+          <node text="20-+29°C 0.0  часов" />
+          <node text="30-+39°C 0.0  часов" />
+          <node text="40-+49°C 0.0  часов" />
+          <node text="50-+59°C 0.0  часов" />
+          <node text="60-+69°C 0.0  часов" />
+          <node text="70-+79°C 0.0  часов" />
+          <node text="80-+89°C 0.0  часов" />
+          <node text="90-+99°C 0.0  часов" />
+          <node text="100-+109°C 0.0  часов" />
+          <node text="110-+119°C 0.0  часов" />
+          <node text="120-+130°C 0.0  часов" />
+        </node>
+      </node>
+      <node text="Производитель " />
+      <node text="ООО НПП 'ТЭК'" />
+      <node text="г.Томск" />
+      <node text="ул.Высоцкого 33" />
+      <node text="тел.Горячей линии:" />
+      <node text="8-800-550-4176" />
+    </node>
+    <node text="Сокращенный вид  ">
+      <node text="" />
+    </node>
+  </node>
+</TreeView>
