@@ -39,7 +39,7 @@ export function parseMenuXml(xml: string): MenuNode[] {
     const textMatch = /text\s*=\s*"([^"]*)"/.exec(attrs ?? "");
     const node: MenuNode = {
       id: `n${counter++}`,
-      text: decodeEntities(textMatch ? textMatch[1] : ""),
+      text: decodeEntities(textMatch?.[1] ?? ""),
       children: [],
     };
 
